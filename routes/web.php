@@ -5,8 +5,9 @@ use App\Http\Controllers\WeddingHallController;
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\ReviewController;
 
-Route::resource('users', UserController::class);
-Route::resource('wedding-halls', WeddingHallController::class);
-Route::resource('bookings', BookingController::class);
-Route::resource('reviews', ReviewController::class);
+Route::apiResource('users', UserController::class);
+Route::apiResource('wedding-halls', WeddingHallController::class);
+Route::apiResource('bookings', BookingController::class);
+Route::apiResource('reviews', ReviewController::class);
+
 
