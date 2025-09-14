@@ -11,3 +11,5 @@ Route::resource('bookings', BookingController::class);
 Route::resource('reviews', ReviewController::class);
 
 
+
+
