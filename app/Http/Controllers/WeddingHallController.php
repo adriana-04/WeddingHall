@@ -9,8 +9,10 @@ class WeddingHallController extends Controller
 {
     public function index()
     {
-        return response()->json(WeddingHall::with('owner')->get());
+    $weddingHalls = WeddingHall::with('owner')->get();
+    return view('halls.index', compact('weddingHalls'));
     }
+
 
     public function store(Request $request)
     {
