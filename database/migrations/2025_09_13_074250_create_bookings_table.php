@@ -10,12 +10,12 @@ return new class extends Migration
     {
         Schema::create('bookings', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id')->constrained('users')->onDelete('cascade'); // customer
-            $table->foreignId('hall_id')->constrained('wedding_halls')->onDelete('cascade');
-            $table->date('booking_date');
-            $table->integer('number_of_guests');
-            $table->enum('status', ['pending', 'confirmed', 'cancelled'])->default('pending');
-            $table->decimal('total_price', 10, 2);
+            $table->string('name');
+            $table->string('email');
+            $table->string('password');
+            $table->string('phone_number');
+            $table->time('create_at');
+            $table->time('updated__at');
             $table->timestamps();
         });
     }
