@@ -18,4 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/booking',[BookingController::class,'bookingPage']);
+Route::get('/register', function () {
+    return "This is the Register Page.";
+})->name('register');
+
