@@ -22,3 +22,10 @@ Route::get('/register', function () {
     return "This is the Register Page.";
 })->name('register');
 
+Route::get('/about', function () {
+    return "About Page (we will build later)";
+});
+
+Route::get('/contact', function () {
+    return "Contact Page (we will build later)";
+});
