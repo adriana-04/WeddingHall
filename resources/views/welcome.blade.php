@@ -15,7 +15,7 @@
 
         <!-- Center: Navigation Links -->
         <div class="space-x-6">
-            <a href="/" class="text-gray-700 hover:text-blue-600 font-medium">Home</a>
+            <a href="/" class="text-gray-700 hover:text-blue-600 font-medium">Dashboard</a>
             <a href="/about" class="text-gray-700 hover:text-blue-600 font-medium">About</a>
             <a href="/contact" class="text-gray-700 hover:text-blue-600 font-medium">Contact</a>
         </div>

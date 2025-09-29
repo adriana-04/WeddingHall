@@ -8,7 +8,7 @@
 </head>
 <body class="bg-light d-flex align-items-center justify-content-center vh-100">
 
-    <div class="card" style="width: 400px;">
+    <div class="card shadow-lg" style="width: 400px;">
         <div class="card-body">
             <h3 class="card-title text-center mb-4">Registration Account</h3>
 
